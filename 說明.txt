@@ -1,0 +1,26 @@
+請依以下說明進行更動以免影響頁面檢視及運作：
+
+
+1.
+online_tw.html可更動內容為以下標籤之包含內容：
+<div id="wrap">......</div>
+
+目前內容為簡易切段節點以供footer的sitemap連結使用，
+.page 以及.ctr已有基本樣式，可自行取捨是否使用
+id名稱亦可變更但須同時更新下列內容：
+<footer>→<ul class="sitemap">→線上學院所設定的節點連結
+
+
+2.
+自訂的css請使用以下檔案：
+assets/css/online_custom.css
+
+
+3.
+使用的圖片請統一放置於以下路徑：
+assets/images/online
+
+
+4.
+若有使用js請更新於以下檔案：
+assets/js/online.js
